@@ -1,7 +1,8 @@
 #include <stdio.h>
-int main(void) {
+int main(void)
+{
 	char n;
-	printf("enter the string:",n);
+	printf("enter the value of string:",n);
 	scanf("%s",&n);
 	if(n>=65&&n<=90||n>=97&&n<=122)
 	{
